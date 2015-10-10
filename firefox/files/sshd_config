@@ -1,0 +1,26 @@
+AcceptEnv LANG LC_*
+AuthorizedKeysFile %h/.ssh/authorized_keys
+ChallengeResponseAuthentication no
+HostbasedAuthentication no
+HostKey /etc/ssh/ssh_host_rsa_key
+HostKey /etc/ssh/ssh_host_dsa_key
+HostKey /etc/ssh/ssh_host_ecdsa_key
+IgnoreRhosts yes
+IgnoreUserKnownHosts yes
+LoginGraceTime 5
+LogLevel QUIET
+PasswordAuthentication no
+PermitEmptyPasswords no
+PermitRootLogin no
+Port 22
+PrintMotd no
+PrintLastLog yes
+Protocol 2
+PubkeyAuthentication yes
+RhostsRSAAuthentication no
+StrictModes yes
+TCPKeepAlive yes
+UseDNS no
+UsePrivilegeSeparation yes
+X11DisplayOffset 10
+X11Forwarding yes
